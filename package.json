@@ -1,0 +1,30 @@
+{
+  "name": "samurai-village-3d",
+  "version": "1.0.0",
+  "description": "Cenário de vila samurai com Three.js - Core reutilizável para jogos HD 2D",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=8080",
+    "build": "echo 'Projeto pronto para uso'"
+  },
+  "keywords": [
+    "threejs",
+    "gamedev",
+    "2d",
+    "hd2d",
+    "samurai",
+    "japan",
+    "scene",
+    "game"
+  ],
+  "author": "Vibe Code",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  }
+}
