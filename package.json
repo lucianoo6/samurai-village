@@ -5,8 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "npx serve .",
-    "dev": "npx live-server --port=8080",
-    "build": "echo 'Projeto pronto para uso'"
+    "dev": "npx live-server --port=8080"
   },
   "keywords": [
     "threejs",
@@ -18,13 +17,12 @@
     "scene",
     "game"
   ],
-  "author": "Vibe Code",
+  "author": "lucianoo6",
   "license": "MIT",
   "dependencies": {
-    "three": "^0.160.0"
+    "three": "^0.128.0"
   },
   "devDependencies": {
-    "live-server": "^1.2.2",
-    "serve": "^14.2.1"
+    "live-server": "^1.2.2"
   }
 }
